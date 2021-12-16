@@ -469,7 +469,7 @@ public final class Encode {
      *
      * <b>Example JSP Usage</b>
      * <pre>
-     *     &lt;div style="background: url('&lt;=Encode.forCssString(...)%&gt;');"&gt;
+     *     &lt;div style="background: url('&lt;%=Encode.forCssString(...)%&gt;');"&gt;
      *
      *     &lt;style type="text/css"&gt;
      *         background: url('&lt;%=Encode.forCssString(...)%&gt;');
@@ -546,7 +546,7 @@ public final class Encode {
      *
      * <b>Example JSP Usage</b>
      * <pre>
-     *     &lt;div style="background:url(&lt;=Encode.forCssUrl(...)%&gt;);"&gt;
+     *     &lt;div style="background:url(&lt;%=Encode.forCssUrl(...)%&gt;);"&gt;
      *
      *     &lt;style type="text/css"&gt;
      *         background: url('&lt;%=Encode.forCssUrl(...)%&gt;');
